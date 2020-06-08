@@ -11,6 +11,7 @@
 		06BED5B3239E418F00F44DBF /* CCBFTMutilinelistView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BED5B2239E418F00F44DBF /* CCBFTMutilinelistView.m */; };
 		06BED5B5239E84DF00F44DBF /* AddImg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06BED5B4239E84DF00F44DBF /* AddImg@2x.png */; };
 		E76E52A4248B937300C5A18D /* Encipherment.m in Sources */ = {isa = PBXBuildFile; fileRef = E76E52A3248B937300C5A18D /* Encipherment.m */; };
+		E76E52A6248C982300C5A18D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E76E52A5248C982300C5A18D /* README.md */; };
 		E77A6F7E239CCDB500BF0DB9 /* codeImg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E77A6F7D239CCDB500BF0DB9 /* codeImg@2x.png */; };
 		E77A6F81239CCFC700BF0DB9 /* CCBFTDoubleLineListView.m in Sources */ = {isa = PBXBuildFile; fileRef = E77A6F80239CCFC700BF0DB9 /* CCBFTDoubleLineListView.m */; };
 		E77A6F86239CF87D00BF0DB9 /* changeImg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E77A6F85239CF87D00BF0DB9 /* changeImg@2x.png */; };
@@ -43,6 +44,7 @@
 		06BED5B4239E84DF00F44DBF /* AddImg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AddImg@2x.png"; sourceTree = "<group>"; };
 		E76E52A2248B937300C5A18D /* Encipherment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Encipherment.h; sourceTree = "<group>"; };
 		E76E52A3248B937300C5A18D /* Encipherment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Encipherment.m; sourceTree = "<group>"; };
+		E76E52A5248C982300C5A18D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E77A6F7D239CCDB500BF0DB9 /* codeImg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "codeImg@2x.png"; sourceTree = "<group>"; };
 		E77A6F7F239CCFC700BF0DB9 /* CCBFTDoubleLineListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBFTDoubleLineListView.h; sourceTree = "<group>"; };
 		E77A6F80239CCFC700BF0DB9 /* CCBFTDoubleLineListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBFTDoubleLineListView.m; sourceTree = "<group>"; };
@@ -209,6 +211,7 @@
 		E9CA42AA2397B58600EB88B0 = {
 			isa = PBXGroup;
 			children = (
+				E76E52A5248C982300C5A18D /* README.md */,
 				E9CA42B52397B58600EB88B0 /* GSPCOMPONENT */,
 				E9CA42B42397B58600EB88B0 /* Products */,
 			);
@@ -307,6 +310,7 @@
 				06BED5AF239E407B00F44DBF /* phongImg@2x.png in Resources */,
 				E94F98782398AFBE005FA5E6 /* MBButton.xib in Resources */,
 				E77A6F86239CF87D00BF0DB9 /* changeImg@2x.png in Resources */,
+				E76E52A6248C982300C5A18D /* README.md in Resources */,
 				E9CA42C32397B58600EB88B0 /* Assets.xcassets in Resources */,
 				E77A6F88239D00EF00BF0DB9 /* locationImg@2x.png in Resources */,
 			);

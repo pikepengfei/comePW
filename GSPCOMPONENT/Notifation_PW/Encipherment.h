@@ -11,8 +11,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Encipherment : NSObject
-+ (void) encipherment:(NSString*)original;
-
+//存储
++ (BOOL) encipherment:(id)original forKEY:(NSString*)key;
+//取出
++ (BOOL) putoutMentforKey:(NSString*)key;
 @end
 
 NS_ASSUME_NONNULL_END

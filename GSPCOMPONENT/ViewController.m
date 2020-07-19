@@ -62,25 +62,12 @@
                           @"is_auth" : @"你说",
                           @"mobile" : @"模型",};
     //本地存储之前进行加密
-    [Encipherment encipherment:pic[@"cardnumber"]];
+    [Encipherment encipherment:pic[@"cardnumber"] forKEY:@"ROOTDic"];
     
-    
-    //存储
-    NSUserDefaults *defaults =  [NSUserDefaults standardUserDefaults];
-    [defaults setObject:pic forKey:@"ROOTDic"];
-    
-    [defaults synchronize];
 }
 
 -(void)getDic{
-    //从本地存储中取出
-    NSUserDefaults *defaul =  [NSUserDefaults standardUserDefaults];
-    
-    id tempObject = [defaul objectForKey:@"ROOTDic"];
-    //使用之前进行解密
-    
-    
-    NSLog(@">>%@",tempObject);
+    [Encipherment putoutMentforKey:@"ROOTDic"];
     
 }
 

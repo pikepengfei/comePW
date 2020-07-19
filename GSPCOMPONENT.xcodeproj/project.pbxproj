@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06BBE83924C3C3030090E20D /* NSData+AES128.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BBE83524C3C3030090E20D /* NSData+AES128.m */; };
+		06BBE83A24C3C3030090E20D /* SecurityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BBE83824C3C3030090E20D /* SecurityUtil.m */; };
 		E76E52A4248B937300C5A18D /* Encipherment.m in Sources */ = {isa = PBXBuildFile; fileRef = E76E52A3248B937300C5A18D /* Encipherment.m */; };
 		E76E52A6248C982300C5A18D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E76E52A5248C982300C5A18D /* README.md */; };
 		E9CA42B82397B58600EB88B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CA42B72397B58600EB88B0 /* AppDelegate.m */; };
@@ -18,6 +20,10 @@
 
 /* Begin PBXFileReference section */
 		06BBE80024BE88C00090E20D /* CSFMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSFMacro.h; sourceTree = "<group>"; };
+		06BBE83524C3C3030090E20D /* NSData+AES128.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES128.m"; sourceTree = "<group>"; };
+		06BBE83624C3C3030090E20D /* NSData+AES128.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES128.h"; sourceTree = "<group>"; };
+		06BBE83724C3C3030090E20D /* SecurityUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityUtil.h; sourceTree = "<group>"; };
+		06BBE83824C3C3030090E20D /* SecurityUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityUtil.m; sourceTree = "<group>"; };
 		E76E52A2248B937300C5A18D /* Encipherment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Encipherment.h; sourceTree = "<group>"; };
 		E76E52A3248B937300C5A18D /* Encipherment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Encipherment.m; sourceTree = "<group>"; };
 		E76E52A5248C982300C5A18D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -48,6 +54,12 @@
 		E76E52A1248B29B200C5A18D /* Notifation_PW */ = {
 			isa = PBXGroup;
 			children = (
+				E76E52A2248B937300C5A18D /* Encipherment.h */,
+				E76E52A3248B937300C5A18D /* Encipherment.m */,
+				06BBE83624C3C3030090E20D /* NSData+AES128.h */,
+				06BBE83524C3C3030090E20D /* NSData+AES128.m */,
+				06BBE83724C3C3030090E20D /* SecurityUtil.h */,
+				06BBE83824C3C3030090E20D /* SecurityUtil.m */,
 				06BBE80024BE88C00090E20D /* CSFMacro.h */,
 			);
 			path = Notifation_PW;
@@ -80,8 +92,6 @@
 				E9CA42BA2397B58600EB88B0 /* SceneDelegate.m */,
 				E9CA42BC2397B58600EB88B0 /* ViewController.h */,
 				E9CA42BD2397B58600EB88B0 /* ViewController.m */,
-				E76E52A2248B937300C5A18D /* Encipherment.h */,
-				E76E52A3248B937300C5A18D /* Encipherment.m */,
 				E9CA42C22397B58600EB88B0 /* Assets.xcassets */,
 				E9CA42C72397B58600EB88B0 /* Info.plist */,
 				E9CA42C82397B58600EB88B0 /* main.m */,
@@ -162,7 +172,9 @@
 				E9CA42BE2397B58600EB88B0 /* ViewController.m in Sources */,
 				E76E52A4248B937300C5A18D /* Encipherment.m in Sources */,
 				E9CA42B82397B58600EB88B0 /* AppDelegate.m in Sources */,
+				06BBE83A24C3C3030090E20D /* SecurityUtil.m in Sources */,
 				E9CA42C92397B58600EB88B0 /* main.m in Sources */,
+				06BBE83924C3C3030090E20D /* NSData+AES128.m in Sources */,
 				E9CA42BB2397B58600EB88B0 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
